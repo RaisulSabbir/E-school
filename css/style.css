@@ -1,0 +1,338 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Roboto:wght@400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* global Css Start */
+body {
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  max-width: 1150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+ul {
+  list-style: none;
+  font-family: "Poppins", sans-serif;
+}
+a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+}
+/* .btn a{
+    text-decoration: none;
+    font-size: 16px;
+    background-color: #21B573;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;   
+} */
+/* global Css end */
+
+.nav {
+  padding-top: 28px;
+  background: #f0fff0;
+  width: 100%;
+  padding-bottom: 60px;
+}
+header .flex1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .brand {
+}
+header .brand img {
+  width: 198.07px;
+}
+header .menu {
+}
+header .menu li {
+  display: inline-block;
+  margin-left: 40px;
+}
+header .menu li a {
+  color: #000000;
+}
+header .btn {
+  background-color: #21b573;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: white !important;
+  font-size: 16px;
+  padding: 12px 28px;
+  border-radius: 33px;
+  border: 1px solid #00000000;
+  transition: 0.5s;
+}
+header .btn:hover {
+  border: 1px solid #000;
+  box-shadow: 0px 4px 4px 0px #00000036;
+  transition: 0.5s;
+}
+/* nav end */
+.nav .flex2 {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 70px;
+  align-items: center;
+}
+.nav .content {
+  flex-basis: 40%;
+}
+.nav .content h1 {
+  padding-top: 12px;
+  width: 90%;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 70px;
+}
+.nav .content span {
+  font-size: 16px;
+  font-weight: 400;
+  color: #fd511a;
+  /* margin-bottom: 20px; */
+  padding-bottom: 20px;
+}
+.nav .content p {
+  font-size: 16px;
+  font-weight: 400px;
+  color: #6c6b6b;
+  line-height: 36px;
+  width: 88%;
+  padding-top: 23px;
+  margin-bottom: 37px;
+}
+.nav .content a {
+  background-color: #21b573;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: white !important;
+  font-size: 16px;
+  padding: 12px 28px;
+  border-radius: 33px;
+  border: 1px solid #00000000;
+  transition: 0.5s;
+}
+.nav .content a:hover{
+ border: 1px solid #000;
+  box-shadow: 0px 4px 4px 0px #00000036;
+  transition: 0.5s;
+}
+.nav .banner-image {
+  flex-basis: 60%;
+  text-align: right;
+}
+.nav .banner-image img {
+  width: 91%;
+}
+
+/* nav section end */
+/* features section start */
+.features {
+  padding: 40px 0;
+}
+.features .flexbox3 {
+  display: flex;
+  justify-content: space-evenly;
+}
+.features .box {
+  padding: 40px 30px;
+  background-color: #f8fffb;
+  flex-basis: 23%;
+  text-align: center;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+.features .box:hover {
+  background-color: #ffffff;
+  box-shadow: 0px 20px 40px 0 #0000001d;
+  transition: 0.5s;
+}
+.features .box img {
+  width: 66px;
+}
+.features .box h6 {
+  font-size: 24px;
+  font-weight: 500;
+  color: #413960;
+  margin-top: 15px;
+  padding-bottom: 0px;
+}
+.features .box p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #585859;
+}
+
+/* features section end */
+/* online course section start */
+.courses {
+  padding: 60px;
+}
+.courses h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #413960;
+  text-align: center;
+  padding-bottom: 50px;
+}
+.courses .flex4 {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 29px;
+}
+.courses .box {
+  background-color: #ffffff;
+  box-shadow: 0px 20px 40px 0 #0000001d;
+  border-radius: 18px;
+  padding: 20px 20px 25px;
+  gap: 20px;
+  flex-basis: 28%;
+}
+.courses .box .image {
+}
+.courses .box .image img {
+  width: 331px;
+}
+.courses .box .text {
+}
+.courses .box .text h6 {
+  font-size: 24px;
+  font-weight: 500;
+  color: #413960;
+  padding-top: 10px;
+}
+.courses .box .text p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #585859;
+  padding-top: 5px;
+  padding-bottom: 30px;
+}
+.courses .box .text a {
+  background-color: #21b573;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: white !important;
+  font-size: 16px;
+  padding: 12px 28px;
+  border-radius: 33px;
+  border: 1px solid #00000000;
+  transition: 0.5s;
+}
+  .courses .box .text a:hover{
+    border: 1px solid #000;
+    box-shadow: 0px 4px 4px 0px #00000036;
+    transition: 0.5s;
+  }
+.courses .box .foter {
+  padding-top: 45px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.courses .box .foter .left {
+  display: flex;
+  align-items: center;
+}
+.courses .box .foter .left img {
+  width: 24px;
+  margin-right: 8px;
+}
+.courses .box .footer .left p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #585859;
+}
+.courses .box .foter .right {
+  display: flex;
+  align-items: center;
+}
+.courses .box .foter .right img {
+  width: 24px;
+  margin-right: 7px;
+}
+.courses .box .foter .right p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #585859;
+}
+
+/* online course section end */
+/* testimonial start */
+.testimonial {
+  padding-top: 60px;
+  padding-bottom: 100px;
+}
+.testimonial h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #000000;
+  text-align: center;
+  padding-bottom: 40px;
+}
+.testimonial .flex5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.testimonial .image {
+}
+.testimonial .image img {
+  width: 120px;
+}
+.testimonial .content {
+  flex-basis: 50.8%;
+
+  margin-left: 50px;
+}
+.testimonial .content p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #000;
+}
+/* testimonial end */
+/* Footer section start */
+.footer {
+  background: #282531;
+  padding: 50px 0 30px 0;
+}
+.footer .flexbox6 {
+  display: flex;
+  justify-content: space-evenly;
+}
+.footer .box1 {
+  flex-basis: 33%;
+}
+.footer .box1 p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+}
+.footer .box2 {
+}
+.footer .box2 h6 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  padding-bottom: 10px;
+}
+.footer .box2 li {
+}
+.footer .box2 li a {
+  font-size: 16px;
+  font-weight: 300;
+  color: #fff;
+}
+.copy {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  color: #cdcdcd;
+  padding-top: 80px;
+}
+/* Footer section end */
